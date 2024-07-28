@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["11092425+ohataken@users.noreply.github.com"]
 
   spec.summary = ""
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.description = ""
   spec.homepage = "https://github.com/ohataken/readable-rising-sun-feeds"
   spec.required_ruby_version = ">= 3.0.0"
 
