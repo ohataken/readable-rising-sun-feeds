@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "json"
 require "uri"
 require "net/http"
 require "nokogiri"
@@ -38,6 +39,10 @@ module Articles
 
     def description
       description_paragraphs.map(&:inner_text).join(" ")
+    end
+
+    def to_json
+      {description: description}.to_json
     end
   end
 end
