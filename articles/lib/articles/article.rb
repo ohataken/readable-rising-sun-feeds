@@ -29,6 +29,10 @@ module Articles
       @body ||= Net::HTTP.get(uri)
     end
 
+    def encoded_body
+      body.force_encoding(Encoding::UTF_8)
+    end
+
     def document
       @document ||= Nokogiri::HTML(body)
     end
