@@ -39,5 +39,13 @@ module Summaries
     def document
       @document ||= RSS::Parser.parse(encoded_body)
     end
+
+    def fill_descriptions!
+      document.items.each do |item|
+        /([0-9A-Z]+)\.html/m =~ item.link
+        article = Article.new($1)
+        item.description = article.description
+      end
+    end
   end
 end
