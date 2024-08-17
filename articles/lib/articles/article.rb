@@ -34,7 +34,7 @@ module Articles
     end
 
     def document
-      @document ||= Nokogiri::HTML(body)
+      @document ||= Nokogiri::HTML(encoded_body)
     end
 
     def description_paragraphs
