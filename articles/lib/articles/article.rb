@@ -49,6 +49,10 @@ module Articles
       document.at("main#main > div.nfyQp > div.w8Bsl > a > figure > img")
     end
 
+    def image_src
+      image&.attributes&.[]("srcset")&.value
+    end
+
     def to_json
       {description: description}.to_json
     end
