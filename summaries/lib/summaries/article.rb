@@ -17,7 +17,7 @@ module Summaries
     end
 
     def uri_string
-      "https://#{hostname}/?id=#{@id}"
+      "https://#{hostname}/articles?id=#{@id}"
     end
 
     def uri
