@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "json"
 require "uri"
 require "net/http"
 require "rss"
@@ -30,6 +31,10 @@ module Summaries
 
     def encoded_body
       body.force_encoding(Encoding::UTF_8)
+    end
+
+    def to_hash
+      @hash ||= JSON.parse(encoded_body)
     end
 
     def description
