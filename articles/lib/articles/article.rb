@@ -45,6 +45,10 @@ module Articles
       description_paragraphs.map(&:inner_text).join(" ")
     end
 
+    def image
+      document.at("main#main > div.nfyQp > div.w8Bsl > a > figure > img")
+    end
+
     def to_json
       {description: description}.to_json
     end
