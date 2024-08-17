@@ -44,7 +44,7 @@ module Summaries
       document.items.each do |item|
         /([0-9A-Z]+)\.html/m =~ item.link
         article = Article.new($1)
-        item.description = article.description
+        item.description = article.to_hash["description"]
       end
     end
   end
