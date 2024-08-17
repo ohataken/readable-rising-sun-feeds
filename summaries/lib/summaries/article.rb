@@ -36,9 +36,5 @@ module Summaries
     def to_hash
       @hash ||= JSON.parse(encoded_body)
     end
-
-    def description
-      encoded_body
-    end
   end
 end
