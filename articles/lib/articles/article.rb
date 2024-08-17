@@ -54,7 +54,7 @@ module Articles
     end
 
     def to_json
-      {description: description}.to_json
+      {description: description, image_src: image_src}.to_json
     end
   end
 end
