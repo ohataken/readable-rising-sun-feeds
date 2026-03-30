@@ -12,7 +12,7 @@ GEM
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     mini_portile2 (2.8.9)
-    minitest (5.24.1)
+    minitest (5.26.1)
     nokogiri (1.17.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -66,7 +66,7 @@ PLATFORMS
 DEPENDENCIES
   articles!
   aws_lambda_ric
-  minitest (~> 5.16)
+  minitest (~> 5.26)
   nokogiri
   rake (~> 13.3)
   standard (~> 1.54)
