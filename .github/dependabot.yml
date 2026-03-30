@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/articles"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "bundler"
+    directory: "/summaries"
+    schedule:
+      interval: "weekly"
