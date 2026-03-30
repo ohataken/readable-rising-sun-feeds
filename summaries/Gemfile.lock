@@ -22,7 +22,7 @@ GEM
     rake (13.3.1)
     regexp_parser (2.11.3)
     rexml (3.4.4)
-    rss (0.3.0)
+    rss (0.3.2)
       rexml
     rubocop (1.84.2)
       json (~> 2.3)
