@@ -23,7 +23,7 @@ GEM
     prism (1.9.0)
     racc (1.8.1)
     rainbow (3.1.1)
-    rake (13.3.1)
+    rake (13.4.2)
     regexp_parser (2.11.3)
     rubocop (1.84.2)
       json (~> 2.3)
@@ -68,7 +68,7 @@ DEPENDENCIES
   aws_lambda_ric
   minitest (~> 5.26)
   nokogiri
-  rake (~> 13.3)
+  rake (~> 13.4)
   standard (~> 1.54)
 
 BUNDLED WITH
