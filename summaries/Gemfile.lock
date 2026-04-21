@@ -19,7 +19,7 @@ GEM
     prism (1.9.0)
     racc (1.8.1)
     rainbow (3.1.1)
-    rake (13.3.1)
+    rake (13.4.2)
     regexp_parser (2.11.3)
     rexml (3.4.4)
     rss (0.3.2)
@@ -65,7 +65,7 @@ PLATFORMS
 DEPENDENCIES
   aws_lambda_ric
   minitest (~> 5.26)
-  rake (~> 13.3)
+  rake (~> 13.4)
   rss
   standard (~> 1.54)
   summaries!
