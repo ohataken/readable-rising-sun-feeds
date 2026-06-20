@@ -9,7 +9,7 @@ gem "rake", "~> 13.4"
 
 gem "minitest", "~> 5.26"
 
-gem "standard", "~> 1.54"
+gem "standard", "~> 1.55"
 
 gem "rss"
 
